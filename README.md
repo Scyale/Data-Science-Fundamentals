@@ -1,5 +1,6 @@
-# Data Science Fundamentals for Chemists and Biochemists
+# Data Science Fundamentals
 
-Material for the course Data Science Fundamentals for Chemists and Biochemists at the University of Bern. 
+Spring Semester 2024
 
-Second edition spring term 2023, S. Haug
+Jupyter Notebooks edited and solved by 
+Arbias Kadriu, 21-106-216
