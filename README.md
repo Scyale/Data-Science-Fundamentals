@@ -8,4 +8,6 @@ Arbias Kadriu, 21-106-216
 Main repositiry: [sigvehaug repositroy](https://github.com/sigvehaug/DSF-DCBP/blob/main/README.md)
 
 ## Feature
-
+- Introduction
+- Baisic Python
+- Intro Prandas Numpy
