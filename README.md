@@ -5,7 +5,7 @@ Spring Semester 2024
 Jupyter Notebooks edited and solved by 
 Arbias Kadriu, 21-106-216
 
-Main repositiry: 02 Course Material (GitHub Repository)
+Main repositiry: sigvehaug repositroy 
 
 ## Feature
 
