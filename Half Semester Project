@@ -47,3 +47,38 @@ It seems you have provided a list of background questions related to machine lea
 10. What are some resources and tools available to help you learn and practice machine learning?
 
     Resources include online courses (e.g., Coursera, Udacity, edX), books (e.g., "Introduction to Statistical Learning" by James et al., "Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow" by Géron), MOOCs (e.g., fast.ai), and tutorials (e.g., Towards Data Science, Kaggle). Tools include Jupyter notebooks, Kaggle kernels, TensorFlow Playground, Google Colab, and various machine learning libraries mentioned earlier.
+
+Exercise 3; Machine Learning Tutorial
+   1. What is in the training set, how big is it?
+
+   As the data set we use the kinase.csv file provided by the course coordinators. This is split up by the function "train_test_split" from the scikit-learn library to split the data into 70% training and 30% test data. Resulting in a training set containing 125878 rows of 3 columns. 
+
+   2. What modifications do you need to do to the data set to perform the tutorial.
+
+   The only relevant columns in the dataset are "smiles", the string of the corresponding compound and "standard_value", the IC50 of the compound. Therefore the set needs to be striped from the remaining columns.
+   Futher the strings in "smiles" needs to be converted to numerical data to apply a neural network. The MACCS fingerprint is saved as "fingerprints_df".
+
+   3. What is a test set? Any other types of set?
+
+   The test set is used to evaluate how well the models predictes values after it has been trained. Therefore the by the model predicted values are compared to a set of real values, the so called test set.
+   Next to the previously mentioned Training set, according to ChatGPT there exists also the so called Validation Set: It is often used during the training process to tune hyperparameters and assess the model's performance on data that it hasn't been directly trained on. This helps to prevent overfitting to the training data and to select the best-performing model among different hyperparameter settings.
+
+   4. 
+
+   [1] import all the necessary libraries
+   [2] Set path to this notebook
+   [3] Load data
+   [4] Check the dimension and missing value of the data
+   [5] Look at head
+   [6] Keep necessary columns
+   [7] defined function "smiles_to_fp" which generates MACCS fingerprints from "smiles"
+   [8] Execute "smiles_to_fp" to convert all SMILES strings to MACCS fingerprints
+   [9] split the data into 70% training and 30% test data
+   [10] Define neural network with the number of neurons in hidden layers and the activation function as arguments
+   [11] Define neural network parameters
+   [12] plot the respective losses
+   [13] Save the model whichs batch size gives the best performance 
+   [14] Evaluate the model on the test data
+   [15] predict the IC50 values on the test data
+   [16] visualize the predictions by plotting the predicted vs. the true IC50 values on the test set
+   [17] 
